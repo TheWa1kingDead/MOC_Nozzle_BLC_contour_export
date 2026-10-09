@@ -5,7 +5,7 @@ message: >-
   (1968) boundary layer method listed under references.
 type: software
 title: >-
-  MOC Nozzle Contour Export: physically scaled inviscid and
+  MOC Nozzle BLC Contour Export: physically scaled inviscid and
   boundary-layer-corrected nozzle coordinates for meshing and CNC machining
 version: 1.0.0
 date-released: "2026-10-10"
@@ -13,7 +13,7 @@ authors:
   - family-names: Reddy
     given-names: MRK
     orcid: "https://orcid.org/0009-0006-8420-6672"
-repository-code: "https://github.com/TheWa1kingDead/MOC-Nozzle-Contour-Export"
+repository-code: "https://github.com/TheWa1kingDead/MOC_Nozzle_BLC_contour_export"
 license: MIT
 abstract: >-
   MATLAB tool that reads the wall contour computed by the method of

@@ -1,4 +1,4 @@
-# MOC Nozzle Contour Export
+# MOC Nozzle BLC Contour Export
 
 MATLAB tool that turns the wall contour computed by the method of characteristics program **MOC_Grid_BDE** (`summary.out`) into a complete, physically scaled supersonic nozzle wall. It adds a convergent section and a circular throat, applies a turbulent boundary layer displacement correction (Edenfield, 1968) to the divergent wall, and writes coordinate files ready for:
 
@@ -258,14 +258,14 @@ One window with four tiles:
 If you use this tool, please cite it (GitHub **"Cite this repository"** uses [`CITATION.cff`](CITATION.cff)), together with the MOC program used to compute the contour and the Edenfield boundary layer method.
 
 ```bibtex
-@software{reddy_moc_nozzle_contour_export_2026,
+@software{reddy_moc_nozzle_blc_contour_export_2026,
   author  = {Reddy, MRK},
-  title   = {{MOC Nozzle Contour Export}: physically scaled inviscid and
+  title   = {{MOC Nozzle BLC Contour Export}: physically scaled inviscid and
              boundary-layer-corrected nozzle coordinates for meshing and
              CNC machining},
   year    = {2026},
   version = {1.0.0},
-  url     = {https://github.com/TheWa1kingDead/MOC-Nozzle-Contour-Export}
+  url     = {https://github.com/TheWa1kingDead/MOC_Nozzle_BLC_contour_export}
 }
 ```
 
