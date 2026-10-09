@@ -1,5 +1,7 @@
 # MOC Nozzle BLC Contour Export
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23270234.svg)](https://doi.org/10.5281/zenodo.23270234)
+
 MATLAB tool that turns the wall contour computed by the method of characteristics program **MOC_Grid_BDE** (`summary.out`) into a complete, physically scaled supersonic nozzle wall. It adds a convergent section and a circular throat, applies a turbulent boundary layer displacement correction (Edenfield, 1968) to the divergent wall, and writes coordinate files ready for:
 
 - **meshing / CFD** (the assembled wall points, in metres), and
@@ -255,7 +257,7 @@ One window with four tiles:
 
 ## How to cite
 
-If you use this tool, please cite it (GitHub **"Cite this repository"** uses [`CITATION.cff`](CITATION.cff)), together with the MOC program used to compute the contour and the Edenfield boundary layer method.
+This tool is archived on Zenodo: [doi:10.5281/zenodo.23270234](https://doi.org/10.5281/zenodo.23270234). If you use it, please cite it (GitHub **"Cite this repository"** uses [`CITATION.cff`](CITATION.cff)), together with the MOC program used to compute the contour and the Edenfield boundary layer method.
 
 ```bibtex
 @software{reddy_moc_nozzle_blc_contour_export_2026,
@@ -265,6 +267,7 @@ If you use this tool, please cite it (GitHub **"Cite this repository"** uses [`C
              CNC machining},
   year    = {2026},
   version = {1.0.0},
+  doi     = {10.5281/zenodo.23270234},
   url     = {https://github.com/TheWa1kingDead/MOC_Nozzle_BLC_contour_export}
 }
 ```

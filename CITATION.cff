@@ -9,6 +9,11 @@ title: >-
   boundary-layer-corrected nozzle coordinates for meshing and CNC machining
 version: 1.0.0
 date-released: "2026-10-10"
+doi: 10.5281/zenodo.23270234
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23270234
+    description: Zenodo DOI for v1.0.0
 authors:
   - family-names: Reddy
     given-names: MRK
