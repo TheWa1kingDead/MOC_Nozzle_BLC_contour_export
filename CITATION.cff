@@ -1,0 +1,75 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite it using the metadata below, and also
+  cite the MOC program used to compute the nozzle contour and the Edenfield
+  (1968) boundary layer method listed under references.
+type: software
+title: >-
+  MOC Nozzle Contour Export: physically scaled inviscid and
+  boundary-layer-corrected nozzle coordinates for meshing and CNC machining
+version: 1.0.0
+date-released: "2026-10-10"
+authors:
+  - family-names: Reddy
+    given-names: MRK
+    orcid: "https://orcid.org/0009-0006-8420-6672"
+repository-code: "https://github.com/TheWa1kingDead/MOC-Nozzle-Contour-Export"
+license: MIT
+abstract: >-
+  MATLAB tool that reads the wall contour computed by the method of
+  characteristics program MOC_Grid_BDE (summary.out), scales it to physical
+  dimensions, adds a cubic convergent section and a circular throat arc, and
+  applies the Edenfield (1968) turbulent boundary layer displacement thickness
+  correction with Eckert reference temperature and Sutherland viscosity. It
+  writes inviscid and boundary-layer-corrected wall coordinates for mesh
+  generation and for CNC machining. Axisymmetric and planar nozzles are
+  supported.
+keywords:
+  - supersonic nozzle
+  - wind tunnel nozzle
+  - method of characteristics
+  - boundary layer correction
+  - displacement thickness
+  - CNC machining
+  - MATLAB
+references:
+  - type: software
+    title: >-
+      Three-Dimensional Nozzle Design Code: corrected transonic throat
+      solution and standalone Windows builds (modified version of NASA
+      LEW-20180)
+    authors:
+      - family-names: Reddy
+        given-names: MRK
+    doi: 10.5281/zenodo.23269365
+    repository-code: "https://github.com/TheWa1kingDead/Three-Dimensional-Nozzle-Design-Code"
+  - type: report
+    title: 2D and 3D Method of Characteristic Tools for Complex Nozzle Development
+    authors:
+      - family-names: Rice
+        given-names: Tharen
+    institution:
+      name: The Johns Hopkins University Applied Physics Laboratory
+    number: RTDC-TPS-481
+    year: 2003
+    url: "https://ntrs.nasa.gov/citations/20030067852"
+  - type: conference-paper
+    title: Contoured nozzle design and evaluation for hotshot wind tunnels
+    authors:
+      - family-names: Edenfield
+        given-names: E. E.
+    number: AIAA Paper 68-369
+    year: 1968
+  - type: article
+    title: >-
+      Engineering relations for friction and heat transfer to surfaces in
+      high velocity flow
+    authors:
+      - family-names: Eckert
+        given-names: E. R. G.
+    journal: Journal of the Aeronautical Sciences
+    volume: 22
+    issue: 8
+    start: 585
+    end: 587
+    year: 1955

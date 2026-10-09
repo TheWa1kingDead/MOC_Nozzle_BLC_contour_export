@@ -1,0 +1,4 @@
+* text=auto
+*.m   text eol=crlf
+*.out text eol=crlf
+*.png binary

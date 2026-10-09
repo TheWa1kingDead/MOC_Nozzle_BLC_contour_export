@@ -1,0 +1,17 @@
+# MATLAB
+*.asv
+*.m~
+*.mex*
+slprj/
+*.autosave
+octave-workspace
+
+# Generated coordinate / result files
+*_cnc_*.txt
+*_mesh_*.txt
+*.fig
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
