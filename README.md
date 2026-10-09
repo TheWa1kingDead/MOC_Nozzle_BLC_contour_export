@@ -286,6 +286,12 @@ The MATLAB code is released under the [MIT License](LICENSE).
 
 The example file in [`examples/M3.5_perfect_axi/`](examples/M3.5_perfect_axi/) is output of the NASA Three-Dimensional Nozzle Design Code sample case and is distributed under the NASA Open Source Agreement v1.3; see the README in that folder.
 
+## Acknowledgements
+
+This tool was developed by MRK Reddy under the guidance of **Prof. S.K. Karthick**, Department of Mechanical and Aerospace Engineering, Indian Institute of Technology Hyderabad, India.
+
+The example nozzle contour was computed with the Three-Dimensional Nozzle Design Code, originally developed by Tharen Rice at the Johns Hopkins University Applied Physics Laboratory with funding from NASA Glenn Research Center.
+
 ## Contact
 
 **MRK Reddy** · ORCID [0009-0006-8420-6672](https://orcid.org/0009-0006-8420-6672) · GitHub [@TheWa1kingDead](https://github.com/TheWa1kingDead)
